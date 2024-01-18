@@ -34,3 +34,52 @@
 
 
 ![tabla_athena](imagenes/tabla_athena.png)
+
+
+### Para visualizar los datos almacenados en el `Data Warehouse`, utilizamos [AWS Quicksight](https://aws.amazon.com/es/quicksight/), un servicio de inteligencia de negocios (BI) que nos permite crear y publicar paneles interactivos que contienen visualizaciones de datos en tiempo real. Podemos acceder a los paneles desde cualquier dispositivo y compartirlos fácilmente con otras personas en nuestra organización.
+
+
+![quicksight](imagenes/quicksight.png)
+
+
+### También optamos por utilizar [Power BI](https://powerbi.microsoft.com/es-es/) para visualizar los datos almacenados en el `Data Warehouse` mediante el uso del conector certificado Simba Athena, en caso de querer replicar la conexión, les dejamos un [enlace](https://youtu.be/FKdCr6vmq-o?si=Bj6FZcRKV-jMitg0) explicando el proceso.
+
+![power_bi](imagenes/powerbi.png)
+
+
+### El entrenamiento del modelo de Machine Learning se realiza mediante [AWS Sagemaker](https://aws.amazon.com/es/sagemaker/), un servicio completamente administrado que nos permite crear, entrenar e implementar de forma rápida y sencilla modelos de Machine Learning a cualquier escala. Podemos crear modelos de Machine Learning personalizados con cualquier algoritmo de aprendizaje y luego implementarlos en producción en pocos clics. Podemos usar todos los algoritmos de aprendizaje automático más populares, como clasificación, regresión, agrupación, detección de anomalías, recomendación y aprendizaje profundo.
+
+![sagemaker](imagenes/sagemaker.png)
+
+
+### La automatización del entrenamiento del modelo de Machine Learning se realiza mediante un evento programado en [AWS Sagemaker](https://aws.amazon.com/es/sagemaker/) que se ejecuta el día 15 de cada mes a las 04:00 hs (GMT -3).
+
+![inicio_sagemaker](imagenes/schedule_sagemaker.png)
+
+
+### Por último, utilizamos [Render](https://render.com/) para crear un sitio web que nos permita visualizar los datos almacenados en el `Data Warehouse` mediante consultas SQL. Render es un servicio de alojamiento web que nos permite crear sitios web estáticos y dinámicos, aplicaciones web y API. Render se encarga de todo lo necesario para ejecutar y escalar el código con alta disponibilidad. Solo tenemos que cargar el código y Render se encargará de todo lo demás. El siguiente [enlace](https://taxisnyc.onrender.com/docs#) permite probar el modelo de recomendación de viajes en taxi y estadísticas de los mismos.
+
+
+
+
+## `Tecnologías utilizadas`
+
+![Amazon S3](https://img.shields.io/badge/AWS%20S3-black?style=flat&logo=Amazon%20S3)
+![AWS Athena](https://img.shields.io/badge/AWS%20Athena-black?style=flat&logo=Amazon%20AWS&logoColor=purple)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-black?style=flat&logo=AWS%20lambda)
+![AWS EventBridge](https://img.shields.io/badge/AWS%20EventBridge-black?style=flat&logo=aws%20lambda&logoColor=%20pink)
+![AWS Glue](https://img.shields.io/badge/AWS%20Glue-black?style=flat&logo=AWS%20OrganizationS&logoColor=blue)
+![AWS Sagemaker](https://img.shields.io/badge/AWS%20Sagemaker-black?style=flat&logo=AmazonAWS&logoColor=green)
+![AWS Quicksight](https://img.shields.io/badge/AWS%20Quicksight-black?style=flat&logo=AmazonAWS&logoColor=yellow)
+![Power BI](https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi)
+![Pyspark](https://img.shields.io/badge/Pyspark-black?style=flat&logo=apache%20spark)
+![Render](https://img.shields.io/badge/Render-black?style=flat&logo=RENDER)
+
+
+## `Equipo`
+
+* **`María Inés Iriart` _(Data Analyst)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mhiriart/)
+* **`Santiago Ituyan` _(Data Analyst)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santiago-ituyan-a3274613a/)
+* **`Jordi Segarra` _(Data Scientist)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordi-segarra-031676238/)
+* **`Leopoldo Farah` _(Data Engineer)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leopoldo-farah-618b00271/)
+* **`Osvaldo Gabriel Sosa` _(Data Engineer)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-sosa26/)
