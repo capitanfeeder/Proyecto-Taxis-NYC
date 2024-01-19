@@ -58,7 +58,7 @@ Nuestra consultora se ha comprometido a contribuir al proceso de toma de decisio
 - **Implementación de un Modelo de Machine Learning:** Desarrollaremos un modelo de machine learning con el objetivo de predecir la probabilidad de que un taxi consiga un pasajero, considerando el lugar, la hora y el día en el que se encuentre. En una segunda fase, ajustaremos el modelo para proporcionar un listado de los tres vehículos ecológicos más adecuados, considerando el capital que el cliente desea invertir. Esta recomendación tomará en cuenta el precio del vehículo, el tipo de combustible, las emisiones de CO2, la cantidad de decibelios emitidos por el motor y, por último, la eficiencia del tanque en términos de millas recorridas
 
 
-## `Tecnologías`
+## `Tecnologías utilizadas`
 
 
 ![Python](https://img.shields.io/badge/Python-black?style=flat&logo=python)
@@ -119,5 +119,10 @@ Para ser un poco más representativos, los invitamos a que observen la siguiente
 Sin mucho más que explicar, en este repositorio encontrarán DOS carpetas. Una corresponde al trabajo en local y la otra corresponde al trabajo utilizando Amazon Web Services. Esperamos que sea de su agrado. ¡Muchas gracias por leer hasta este punto!
 
 
+## `Equipo`
 
-
+* **`María Inés Hiriart` _(Data Analyst)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mhiriart/)
+* **`Santiago Ituyan` _(Data Analyst)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santiago-ituyan-a3274613a/)
+* **`Jordi Segarra` _(Data Scientist)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordi-segarra-031676238/)
+* **`Leopoldo Farah` _(Data Engineer)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leopoldo-farah-618b00271/)
+* **`Osvaldo Gabriel Sosa` _(Data Engineer)_**   [![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-sosa26/)
