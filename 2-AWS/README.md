@@ -42,7 +42,7 @@
 ![quicksight](imagenes/quicksight.png)
 
 
-### También optamos por utilizar [Power BI](https://powerbi.microsoft.com/es-es/) para visualizar los datos almacenados en el `Data Warehouse` mediante el uso del conector certificado Simba Athena, en caso de querer replicar la conexión, les dejamos un [enlace](https://youtu.be/FKdCr6vmq-o?si=Bj6FZcRKV-jMitg0) explicando el proceso.
+### También optamos por utilizar [Power BI](https://powerbi.microsoft.com/es-es/) para visualizar los datos almacenados en el `Data Warehouse` mediante el uso del conector certificado Simba Athena, en caso de querer replicar la conexión, les dejamos un [enlace](https://youtu.be/FKdCr6vmq-o?si=Bj6FZcRKV-jMitg0) explicando el proceso y el [`dashboard`](https://drive.google.com/file/d/1PoAHQCPmF1hUL2V2shqlKUWhdLIcGK3d/view?usp=sharing) para su descarga y visualización.
 
 ![power_bi](imagenes/powerbi.png)
 
@@ -74,6 +74,13 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi)
 ![Pyspark](https://img.shields.io/badge/Pyspark-black?style=flat&logo=apache%20spark)
 ![Render](https://img.shields.io/badge/Render-black?style=flat&logo=RENDER)
+
+
+## `Para revisar:`
+
+* Video explicativo: [`Visualización`](https://youtu.be/YW84_oF6xfg) - [`Descarga`](https://drive.google.com/file/d/131HWUANNzo8jws4DfGNWMEnNLFjTYTvJ/view?usp=drive_link)
+* Dashboard: [`Descarga`](https://drive.google.com/file/d/1PoAHQCPmF1hUL2V2shqlKUWhdLIcGK3d/view?usp=sharing)
+* Sitio web: [`Enlace`](https://taxisnyc.onrender.com/docs#)
 
 
 ## `Equipo`
