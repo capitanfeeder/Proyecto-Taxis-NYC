@@ -1,5 +1,9 @@
 # **Implementación de servicios de Amazon Web Services**
 
+## En el marco del ciclo propuesto en este trabajo, se emplean servicios de AWS para establecer un Data Warehouse destinado a almacenar y procesar datos relacionados con viajes en taxi en la ciudad de Nueva York. El propósito central es facilitar consultas SQL que extraigan información significativa de los datos almacenados en el Data Warehouse. Además, se pretende emplear este mismo entorno para llevar a cabo el entrenamiento de un modelo de Machine Learning, orientado a prever el costo de los viajes en taxi en la mencionada ciudad. El ciclo de los datos y los servicios específicos de AWS empleados para este proyecto se pueden apreciar en la siguiente figura:
+
+![ciclo_dato](imagenes/ciclo_dato.jpg)
+
 ## [AWS Lambda](https://aws.amazon.com/es/pm/lambda/?gclid=Cj0KCQiAnfmsBhDfARIsAM7MKi3hA_kpcaFxoJcsHGFQ6Csz1HOeFl6fqBFCYpECIED_WyPmMUSeVjwaApFrEALw_wcB&trk=91e64750-b4c8-4c8d-8ab0-9f93b6d03e96&sc_channel=ps&ef_id=Cj0KCQiAnfmsBhDfARIsAM7MKi3hA_kpcaFxoJcsHGFQ6Csz1HOeFl6fqBFCYpECIED_WyPmMUSeVjwaApFrEALw_wcB:G:s&s_kwcid=AL!4422!3!651510248553!e!!g!!aws%20lambda!19828212861!147446016415) es un servicio de computación sin servidor que nos permite ejecutar código sin aprovisionar ni administrar servidores. Podemos ejecutar código para prácticamente cualquier tipo de aplicación o servicio backend con tolerancia a errores o administración de recursos de computación. Solo tenemos que cargar el código y `Lambda` se encargará de todo lo necesario para ejecutar y escalar el código con alta disponibilidad. Podemos configurar el código para que se ejecute automáticamente desde otras fuentes (como S3, SNS, DynamoDB o Kinesis) sin necesidad de crear un punto de enlace. También podemos usar Lambda para crear nuevos servicios que se activen de forma directa o periódica.
 
 ## En esta primer estapa, creamos una función `Lambda` que se encarga de realizar web scrapping a la página [Taxi & Limousine Comission](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) para extraer los datos de los viajes realizados en la ciudad de New York durante el año 2023 y finalmente almacenarlos en un bucket de [AWS S3](https://aws.amazon.com/es/s3/).
@@ -34,6 +38,11 @@
 
 
 ![tabla_athena](imagenes/tabla_athena.png)
+
+
+### Con nuestras tablas creadas, se puede materializar la estructura del Diagrama Entidad-Relación (DER) para facilitar el análisis de datos. A continuación, se presenta el DER del estudio, que muestra una estructura de copo de nieve. Cada tabla tiene relaciones con otras, formando una red interconectada:
+
+![DER](imagenes/copo_de_nieve.jpg)
 
 
 ### Para visualizar los datos almacenados en el `Data Warehouse`, utilizamos [AWS Quicksight](https://aws.amazon.com/es/quicksight/), un servicio de inteligencia de negocios (BI) que nos permite crear y publicar paneles interactivos que contienen visualizaciones de datos en tiempo real. Podemos acceder a los paneles desde cualquier dispositivo y compartirlos fácilmente con otras personas en nuestra organización.
