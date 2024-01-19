@@ -38,7 +38,7 @@ En nuestra consultora contamos con 3 roles fundamentales
     - Jordi Mikel Segarra Guerra
 - **Data Engineer:** Los responsables de este rol se encargan de diseñar, implementar y mantener las infraestructuras de datos y la automatizacion de pipelines que permiten la recopilación, procesamiento y almacenamiento eficiente de los datos dentro de la nube.
 Contamos con dos profesionales:
-    - Gabriel Osvaldo Sosa
+    - Osvaldo Gabriel Sosa
     - Leopoldo Martin Farah Cometti
 
 Cada uno de estos roles es fundamental para el éxito de nuestro proyecto, y juntos trabajamos en colaboración para garantizar la calidad y la utilidad de los datos que manejamos, así como para aprovechar el potencial del machine learning en nuestro proyecto.
